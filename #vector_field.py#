@@ -1,0 +1,14 @@
+#!usr/bin/python3
+
+import matplotlib as mpl
+from mpl_toolkits.mplot3d import Axes3D
+import numpy as np
+import matplotlib.pyplot as plt
+
+#ploting the vector function f(x,y)=sin(x+y)i+cos(x-y)j
+
+f_1=np.sin(x+y)
+f_2=np.cos(x-y)
+f=f_1+f_2
+x_position=x
+
