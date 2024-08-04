@@ -3,18 +3,15 @@
 
 import numpy as np
 
+# July 28, 2024
 
-'''
-a=11
-if a==1:
-    print(1)
-elif a==2:
-    print(2)
-else:
-    print('A lot')
+#This simple program generates the decimals of pi using the wallis formula.
+#this program also runs a simpole script of finobacci sequence for the nth term.
 
 
-#print('procedure to generate decimals of pi from the wallis formula:')
+
+print('procedure to generate decimals of pi from the wallis formula:')
+
 def wallis(n):
     pi=0.0
     for i in range(1,n):
@@ -28,17 +25,21 @@ def wallis(n):
     pi*= 2
     return pi
 w=wallis(10000) #change accordingly
-#print('Value for pi is:',w)
+print('Value for pi is:',w)
+print
 
 #energy is E=mc^2
 
-#print('Function returning a value, E=mc^2:')
+print('Function returning a value, E=mc^2:')
 
 def energy(mass):
     energy=mass*(3.0*10**8)**2
     return energy
 mass=5000 #kg
-#print('energy as a function of mass, %d kg is:'%(mass), energy(mass)) #kg, change mass accordingly
+print('energy as a function of mass, %d kg is:'%(mass), energy(mass)) #kg, change mass accordingly
+print
+
+
 '''
 #mutablable type in a keyword argument
 
@@ -49,8 +50,9 @@ def adding_to_dic(args={'a':1,'b':2}):
 #adding_dic()  modifies the keyword argument inside the function
 
 #adding_to_dic  prints out the modified fucntion.
- 
-#fibonacci
+'''
+
+#fibonacci sequence
 print('finobacci sequence, nth term:')
 print
 def fibs(n):
